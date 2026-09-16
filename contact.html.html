@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[ชื่อธุรกิจ] - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">[ชื่อธุรกิจ]</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="process.html">Process</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main style="padding: 80px 5%; display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: start;">
+    <div>
+      <h1 style="font-size: 4rem; font-weight: 900; text-transform: uppercase; margin-bottom: 24px;">
+        Let's Create <span style="background-color: var(--yellow); padding: 0 10px;">Together!</span>
+      </h1>
+      <p style="font-size: 1.2rem; font-weight: 700; line-height: 1.6; margin-bottom: 30px; opacity: 0.8;">
+        มีโปรเจกต์ในใจหรืออยากให้เราช่วยเนรมิตแบรนด์ของคุณให้ปังกว่าเดิม? ทักมาคุยกันได้เลย เราพร้อมลุย!
+      </p>
+      <div class="bold-card" style="background: var(--peach);">
+        <p style="font-weight: 900; font-size: 1.1rem; margin-bottom: 10px;">📧 Email: hello@yourbusiness.com</p>
+        <p style="font-weight: 900; font-size: 1.1rem;">📞 Phone: 089-123-4567</p>
+      </div>
+    </div>
+
+    <div class="bold-card" style="background: var(--bg-cream); border: 4px solid var(--black);">
+      <form onsubmit="event.preventDefault(); alert('ส่งข้อความสำเร็จแล้ว!');" style="display: flex; flex-direction: column; gap: 20px;">
+        <div>
+          <label style="display: block; font-weight: 900; margin-bottom: 8px;">Your Name</label>
+          <input type="text" required style="width: 100%; padding: 12px; border: 3px solid var(--black); border-radius: 8px; font-family: 'Outfit'; font-weight: 700; background: var(--bg-cream);">
+        </div>
+        <div>
+          <label style="display: block; font-weight: 900; margin-bottom: 8px;">Email Address</label>
+          <input type="email" required style="width: 100%; padding: 12px; border: 3px solid var(--black); border-radius: 8px; font-family: 'Outfit'; font-weight: 700; background: var(--bg-cream);">
+        </div>
+        <div>
+          <label style="display: block; font-weight: 900; margin-bottom: 8px;">Message</label>
+          <textarea rows="4" required style="width: 100%; padding: 12px; border: 3px solid var(--black); border-radius: 8px; font-family: 'Outfit'; font-weight: 700; background: var(--bg-cream);"></textarea>
+        </div>
+        <button type="submit" class="btn-bold" style="cursor: pointer; width: 100%; text-align: center;">Send Message</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 [ชื่อธุรกิจ]. All Rights Reserved. Bold & Creative.</p>
+  </footer>
+
+</body>
+</html>
